@@ -1,0 +1,33 @@
+{
+  "name": "recipes-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+<<<<<<< HEAD
+    "dev": "nodemon --inspect .",
+    "start": "node .",
+    "seed": "node db/seed.js"
+=======
+    "start": "node .",
+    "dev": "nodemon --inspect .",
+    "seed": "node seed.js"
+>>>>>>> da2c80bfa24b49d51f6aabaf6f0b7ff814fdcff7
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.5",
+    "node-fetch": "^1.7.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "superagent": "^3.8.1"
+  }
+}
